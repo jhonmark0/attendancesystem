@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance System Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <header class="sticky">
+      <div class="logo">
+        <h1>Attendance System</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="active"><a href="dashboard.php">Dashboard</a></li>
+          <li><a href="startattendance.php">Start Atendancing</a></li>
+          <li><a href="attendancereports.php">Attendance Reports</a></li>
+          <li><a href="enrollcard.php">Enroll Card</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Menu</a>
+            <div class="dropdown-content">
+              <a href="Users.php">Users</a>
+              <a href="About.html">About</a>
+              <a href="index.php">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <div class="dashboard">
+            <section class="about">
+              <h2>About</h2>
+              <p>The Attendance System is a comprehensive solution for keeping track of employee attendance. Our system is designed to be easy to use and customizable, so that it can meet the specific needs of your business. With our system, you can easily track employee attendance, generate reports, and manage enrolled cards. </p>
+            </section>
+            <section class="team">
+              <h2>Our Team</h2>
+              <ul>
+                <li>
+                  <img src="team-member-1.jpg" alt="Team member 1">
+                  <h3>Person 1</h3>
+                  <p>Role 1</p>
+                </li>
+                <li>
+                  <img src="team-member-2.jpg" alt="Team member 2">
+                  <h3>Person 2</h3>
+                  <p>Role 2</p>
+                </li>
+                <li>
+                  <img src="team-member-3.jpg" alt="Team member 3">
+                  <h3>Person 3</h3>
+                  <p>Role 3</p>
+                </li>
+              </ul>
+            </section>         
+          </div>
+
+    </main>
+      
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Attendance System</p>
+          
+          <label class="switch">
+            <input type="checkbox" onclick="toggleDarkMode()">
+            <span class="slider round"></span>
+            <span class="mode-text">Light Mode</span>
+          </label>
+        </div>
+      </footer>
+	</div>
+  </body>
+</html>
